@@ -11,6 +11,17 @@ Clone do clássico Flappy Bird na OLED 128x64, com um único botão controlando 
 4. **Colisão** — bater em um cano ou tocar o teto/chão do campo termina a partida. O buzzer toca um bipe grave de game over, e a tela mostra a pontuação final (com aviso de novo recorde, se for o caso).
 5. **Recorde** — o melhor resultado é salvo na EEPROM do Arduino, sobrevivendo a desligamentos.
 
+## 🔌 Hardware e Circuito
+
+Abaixo estão o diagrama esquemático das conexões e a montagem física do protótipo:
+
+Diagrama Esquemático
+![Esquemático do Circuito](circuit_images/esquematico.png)
+*Esquema elétrico / pinagem*
+
+Montagem Física
+![Circuito Montado](circuit_images/circuito-real.jpeg)
+*Protótipo montado na protoboard*
 ## Pinout
 
 | Componente   | Pino Arduino |
